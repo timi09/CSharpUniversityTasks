@@ -77,8 +77,8 @@ namespace CSharpUniversityTasks
         {
             if(Pences >= MaxPences) 
             {
-                Shillings = Pences / MaxPences;
-                Pences = Pences % MaxPences;
+                Shillings += Pences / MaxPences;
+                Pences %= MaxPences;
             }
         }
 
@@ -86,8 +86,8 @@ namespace CSharpUniversityTasks
         {
             if (Shillings >= MaxShillings)
             {
-                Phounds = Shillings / MaxShillings;
-                Shillings = Shillings % MaxShillings;
+                Phounds += Shillings / MaxShillings;
+                Shillings %= MaxShillings;
             }
         }
     }
@@ -116,8 +116,8 @@ namespace CSharpUniversityTasks
         {
             if (Pences >= MaxPences)
             {
-                Phounds = Pences / MaxPences;
-                Pences = Pences % MaxPences;
+                Phounds += Pences / MaxPences;
+                Pences %= MaxPences;
             }
         }
     }
