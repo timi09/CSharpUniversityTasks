@@ -53,32 +53,33 @@ namespace LabWork4
 
             for (int i = 0; i < safehilo.getLimit(); i++)
             {
-                Color color;
-                if (i < safehilo.Start || i > safehilo.End)
-                    color = Color.Red;
+                if (i < safehilo.Start || i > safehilo.End) 
+                    richTextBox4.AppendText(0 + "\t", Color.Red);
                 else
-                    color = Color.Blue;
-
-                richTextBox4.AppendText(safehilo[i] + "\t", color);
+                    richTextBox4.AppendText(safehilo[i] + "\t", Color.Blue);
                 richTextBox3.Text += i + "\t";
             }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
+            if (safehilo == null)
+                return;
+
             int value = (int)numericUpDown8.Value;
             int index = (int)numericUpDown7.Value;
-            if(safehilo != null)
-                safehilo[index] = value;
+            safehilo[index] = value;
             UpdateSafehiloTextBox();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            if (safearray == null)
+                return;
+
             int value = (int)numericUpDown3.Value;
             int index = (int)numericUpDown4.Value;
-            if (safearray != null)
-                safearray[index] = value;
+            safearray[index] = value;
             UpdateSafearrayTextBox();
         }
     }

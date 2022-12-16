@@ -23,7 +23,7 @@ namespace LabWork4
             {
                 if ((n < 0) || (n >= LIMIT))
                 {
-                    Console.Write("\nОшибочный индекс!");
+                    Console.WriteLine("Ошибочный индекс!");
                     return 0;
                 }
                 else
@@ -35,7 +35,7 @@ namespace LabWork4
             {
                 if ((n < 0) || (n >= LIMIT))
                 {
-                    Console.Write("\nОшибочный индекс!");
+                    Console.WriteLine("Ошибочный индекс!");
                 }
                 else
                 {

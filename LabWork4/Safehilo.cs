@@ -21,7 +21,7 @@ namespace LabWork4
         {
             get
             {
-                if (n < 0 || n > getLimit())
+                if (n < 0 || n > getLimit()-1)
                 {
                     return base[n];
                 }
@@ -42,7 +42,7 @@ namespace LabWork4
             }
             set
             {
-                if ((n < 0) || (n > getLimit()))
+                if (n < 0 || n > getLimit()-1)
                 {
                     base[n] = value;
                 }
