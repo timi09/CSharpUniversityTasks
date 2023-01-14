@@ -34,6 +34,8 @@ namespace LabWork5._3
             resultData.Filter();
             resultData.Save();
             resultData.Show();
+
+            Console.ReadLine();
         }
     }
 }

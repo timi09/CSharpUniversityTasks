@@ -226,7 +226,6 @@
             this.colorsListBox.Name = "colorsListBox";
             this.colorsListBox.Size = new System.Drawing.Size(120, 56);
             this.colorsListBox.TabIndex = 13;
-            this.colorsListBox.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // label7
             // 
@@ -237,7 +236,6 @@
             this.label7.Size = new System.Drawing.Size(52, 16);
             this.label7.TabIndex = 14;
             this.label7.Text = "Colors";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // rectanglesListBox
             // 
