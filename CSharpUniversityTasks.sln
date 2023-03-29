@@ -32,6 +32,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabWork6.2", "LabWork6.2\La
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabWork7.1-7.2", "LabWork7.1\LabWork7.1-7.2.csproj", "{FD483EEF-FB68-4F79-82FC-0F7DD09A4E47}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlWork1.2", "ControlWork\ControlWork1.2.csproj", "{90334375-02DF-4257-8016-21C54A780094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlWork1.1", "ControlWork1.1\ControlWork1.1.csproj", "{FA288D87-E12E-4840-BF63-F68B705E8DAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -82,6 +86,14 @@ Global
 		{FD483EEF-FB68-4F79-82FC-0F7DD09A4E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD483EEF-FB68-4F79-82FC-0F7DD09A4E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD483EEF-FB68-4F79-82FC-0F7DD09A4E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90334375-02DF-4257-8016-21C54A780094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90334375-02DF-4257-8016-21C54A780094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90334375-02DF-4257-8016-21C54A780094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90334375-02DF-4257-8016-21C54A780094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA288D87-E12E-4840-BF63-F68B705E8DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA288D87-E12E-4840-BF63-F68B705E8DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA288D87-E12E-4840-BF63-F68B705E8DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA288D87-E12E-4840-BF63-F68B705E8DAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
