@@ -22,7 +22,7 @@ namespace ControlWork1._1
 
         public Test()
         {
-            Name = "Название заета";
+            Name = "Название зачета";
             Result = "сдано";
             Date = DateTime.MinValue;
         }
